@@ -1,0 +1,44 @@
+[0.334s] Invoking command in '/home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build install --record /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[0.448s] running egg_info
+[0.448s] creating ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info
+[0.449s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[0.449s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[0.449s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[0.449s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[0.449s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[0.449s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.467s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.467s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.467s] running build
+[0.467s] running build_py
+[0.467s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build
+[0.467s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build/lib
+[0.468s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.468s] copying f1tenth_gym_ros/__init__.py -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.468s] copying f1tenth_gym_ros/gym_bridge.py -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.468s] running install
+[0.468s] running install_lib
+[0.469s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[0.469s] copying /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[0.469s] copying /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros
+[0.469s] byte-compiling /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-38.pyc
+[0.470s] byte-compiling /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-38.pyc
+[0.472s] running install_data
+[0.472s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/ament_index
+[0.472s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index
+[0.472s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[0.472s] copying resource/f1tenth_gym_ros -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[0.472s] copying package.xml -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[0.472s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.472s] copying launch/gym_bridge_launch.py -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.472s] copying launch/ego_racecar.xacro -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.472s] copying launch/opp_racecar.xacro -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.472s] copying launch/gym_bridge.rviz -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.472s] creating /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[0.472s] copying config/sim.yaml -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[0.472s] running install_egg_info
+[0.473s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info
+[0.473s] running install_scripts
+[0.483s] Installing gym_bridge script to /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[0.483s] writing list of installed files to '/home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/install.log'
+[0.495s] Invoked command in '/home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/build install --record /home/salem/Desktop/f1tenth-autonomous-racing/map1/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data

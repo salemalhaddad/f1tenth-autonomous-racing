@@ -1,0 +1,3 @@
+[console_scripts]
+exe = gap_follower_pkg.gap_follower:main
+

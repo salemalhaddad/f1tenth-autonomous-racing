@@ -1,0 +1,24 @@
+[1.067s] Invoking command in '/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/src/gap_follower_pkg': PYTHONPATH=/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/install/gap_follower_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gap_follower_pkg build --build-base /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/build install --record /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/install.log --install-scripts $base/lib/gap_follower_pkg --single-version-externally-managed install_data
+[1.320s] running egg_info
+[1.321s] writing ../../build/gap_follower_pkg/gap_follower_pkg.egg-info/PKG-INFO
+[1.322s] writing dependency_links to ../../build/gap_follower_pkg/gap_follower_pkg.egg-info/dependency_links.txt
+[1.322s] writing entry points to ../../build/gap_follower_pkg/gap_follower_pkg.egg-info/entry_points.txt
+[1.322s] writing requirements to ../../build/gap_follower_pkg/gap_follower_pkg.egg-info/requires.txt
+[1.322s] writing top-level names to ../../build/gap_follower_pkg/gap_follower_pkg.egg-info/top_level.txt
+[1.358s] reading manifest file '../../build/gap_follower_pkg/gap_follower_pkg.egg-info/SOURCES.txt'
+[1.358s] writing manifest file '../../build/gap_follower_pkg/gap_follower_pkg.egg-info/SOURCES.txt'
+[1.358s] running build
+[1.358s] running build_py
+[1.358s] copying gap_follower_pkg/gap_follower.py -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/build/lib/gap_follower_pkg
+[1.359s] running install
+[1.359s] running install_lib
+[1.360s] copying /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/build/lib/gap_follower_pkg/gap_follower.py -> /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/install/gap_follower_pkg/lib/python3.8/site-packages/gap_follower_pkg
+[1.360s] byte-compiling /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/install/gap_follower_pkg/lib/python3.8/site-packages/gap_follower_pkg/gap_follower.py to gap_follower.cpython-38.pyc
+[1.362s] running install_data
+[1.362s] running install_egg_info
+[1.363s] removing '/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/install/gap_follower_pkg/lib/python3.8/site-packages/gap_follower_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.363s] Copying ../../build/gap_follower_pkg/gap_follower_pkg.egg-info to /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/install/gap_follower_pkg/lib/python3.8/site-packages/gap_follower_pkg-0.0.0-py3.8.egg-info
+[1.364s] running install_scripts
+[1.381s] Installing exe script to /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/install/gap_follower_pkg/lib/gap_follower_pkg
+[1.382s] writing list of installed files to '/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/install.log'
+[1.413s] Invoked command in '/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/src/gap_follower_pkg' returned '0': PYTHONPATH=/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/install/gap_follower_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gap_follower_pkg build --build-base /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/build install --record /home/salem/Desktop/f1tenth-autonomous-racing/map1/gap_follower/build/gap_follower_pkg/install.log --install-scripts $base/lib/gap_follower_pkg --single-version-externally-managed install_data
