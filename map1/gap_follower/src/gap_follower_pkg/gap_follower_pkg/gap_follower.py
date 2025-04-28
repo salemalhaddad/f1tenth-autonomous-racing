@@ -17,6 +17,30 @@ class SimpleGapFollower(Node):
         self.create_subscription(LaserScan, '/scan', self.scan_cb, 10)
         self.get_logger().info('SimpleGapFollower ready.')
 
+    def disparity_extender(self, ranges, car_width=0.31, threshold=2.0, safety_pct=300.0):
+        """Extends disparities in LIDAR data so the car doesn't try to drive through gaps too small for its width."""
+        ranges = np.array(ranges)
+        radians_per_point = (2 * np.pi) / len(ranges)
+        width_to_cover = (car_width / 2) * (1 + safety_pct / 100)
+        for i in range(len(ranges) - 1):
+            diff = abs(ranges[i + 1] - ranges[i])
+            if diff > threshold:
+                close_idx = i if ranges[i] < ranges[i + 1] else i + 1
+                close_dist = ranges[close_idx]
+                if close_dist == 0:  # avoid division by zero
+                    continue
+                angle = 2 * np.arcsin(min(1.0, width_to_cover / (2 * close_dist)))
+                num_points = int(np.ceil(angle / radians_per_point))
+                if close_idx == i:
+                    start = close_idx + 1
+                    end = min(len(ranges), close_idx + 1 + num_points)
+                    ranges[start:end] = close_dist
+                else:
+                    start = max(0, close_idx - num_points)
+                    end = close_idx
+                    ranges[start:end] = close_dist
+        return ranges
+
     def scan_cb(self, scan: LaserScan):
         # 1) Clean up
         r = np.nan_to_num(scan.ranges, nan=scan.range_max, posinf=scan.range_max)
@@ -32,6 +56,9 @@ class SimpleGapFollower(Node):
         if len(sector) == 0:
             return
 
+        # Disparity extender step (pre-bubble)
+        sector = self.disparity_extender(sector)
+
         print("Sector is the: ", sector)
         bub = 200
        
@@ -46,6 +73,8 @@ class SimpleGapFollower(Node):
         mask_start = bubble_start - i_min
         mask_end = bubble_end - i_min
         sector_masked[mask_start:mask_end + 1] = 0.0
+
+        print('sector range is: [', sector_masked, ']')
 
         # Find best direction
         best_rel_idx = np.argmax(sector_masked)
