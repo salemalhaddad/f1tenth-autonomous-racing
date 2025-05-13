@@ -1,4 +1,4 @@
-# F1Tenth Autonomous Racing – Team [Your Team Name]
+# F1Tenth Autonomous Racing – Team Yas
 
 Developing and optimizing autonomous driving algorithms for the F1Tenth platform, aiming to maximize speed and efficiency for the final challenge race.
 
